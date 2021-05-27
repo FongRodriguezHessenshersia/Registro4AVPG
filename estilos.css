@@ -1,0 +1,54 @@
+* {
+	acolchado :  0 ;
+	margen :  0 ;
+	familia de fuentes : gótico del siglo;
+	alineación de texto : centro;
+}
+
+formulario {
+	relleno :  50 px  20 px ;
+	color de fondo :  # editado ;
+	margen :  calc ( 25 %  +  100 px );
+	margen superior :  70 px ;
+	padding-top :  28 px ;
+	margen inferior :  30 px
+}
+
+h1{
+	alineación de texto : centro;
+	relleno :  12 px ;
+	color :  # 444
+}
+
+input {
+	ancho :  calc ( 100 %  -  20 px );
+	relleno :  9 px ;
+	margen : automático;
+	margen superior :  12 px ;
+	tamaño de fuente :  16 px
+}
+
+input [ type = 'submit' ] {
+	color de fondo :  # 48e ;
+	color :  # fff ;
+	ancho :  calc ( 80 %  -  20 px );
+	margen :  0  10 % ;
+	margen superior :  22 px ;
+	borde : ninguno;
+}
+
+
+. ok {
+	alineación de texto : centro;
+	ancho :  100 % ;
+	relleno :  12 px ;
+	color de fondo :  # 1e6 ;
+	color :  # fff
+}
+. malo {
+	alineación de texto : centro;
+	ancho :  100 % ;
+	relleno :  12 px ;
+	color de fondo :  # a22 ;
+	color :  # fff
+}
